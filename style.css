@@ -1,0 +1,248 @@
+* {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.navbar{
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    width: 100%;
+    grid-template-columns: 5fr 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: 1fr;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    z-index: 10;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-style {
+    font-size:17px;
+    cursor: pointer;
+    border-style: none;
+    background: none;
+}
+
+
+.btn-1-div {
+  
+}
+
+.btn-2-div {
+ 
+}
+
+.btn-3-div {
+ 
+}
+
+#btn-1 {
+}
+
+#btn-2 {
+}
+
+#btn-3 {
+}
+
+.logo-image-position {
+    margin-left: 30px;
+    justify-self: start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#img-logo-style {
+    position: relative;
+    margin-top: 10px;
+    width: 19rem;
+}
+
+#title {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.form-div-pos {
+    position: relative;
+    top: 80px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#email-input {
+    display: block;
+    width: 17rem;
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#btn-form {
+    background-color: rgb(248, 204, 83);
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 9rem;
+    height: 1.8rem;
+    border-style: none;
+    border-radius:2px;
+    font-size: 1rem;
+    font-weight: 1000;
+}
+
+#btn-form:hover {
+    background-color: rgb(245, 168, 24);
+}
+
+.main-content-pos{
+    position: relative;
+    margin-top: 10rem;
+}
+
+.content-div {
+    display: grid;
+    margin: 0 auto;
+    width: 50%;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 2rem;
+}
+
+.grid-div-content {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    align-items: flex-start ;
+}
+
+.title-grid-content {
+    text-align: left;
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.grid-content {
+    text-align: left;
+}
+
+.video-div-pos {
+    margin-top: 5rem;
+}
+
+.trombone-div-pos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 50%;
+    margin: 5rem auto;
+    grid-column-gap: 1rem;
+    margin-bottom: 0;
+}
+
+.trombone-div-grid{
+    display:grid;
+    width: auto;
+    grid-template-rows: 3rem 3rem 11rem 3rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.shop-title-bg {
+    background-color: rgb(216, 216, 216);
+    
+}
+
+.shop-title {
+    background-color: none;
+    margin-top: 0.6rem;
+    font-weight: bold;
+}
+
+.shop-price {
+    align-self: center;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.shop-productInfo{
+    position: relative;
+    text-align: center;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.resize-info{
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    height: 11rem;
+    font-size: 0.9rem;
+}
+
+.shop-button {
+    align-self: center;
+    justify-self: center;
+}
+
+#btn-shop {
+    background: rgb(248, 204, 83);
+    border-style: none;
+    border-radius: 2px;
+    width: 6.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+#btn-shop:hover {
+    background-color: rgb(245, 168, 24);
+}
+
+.footer-div {
+    background: rgb(219, 219, 219);
+    position: relative;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: -100px;
+    padding-bottom: 20px;
+    width:  52%;
+    height: 4.5rem;
+    grid-column: 1/4;
+    border-radius: 2px;
+    text-align: right;
+    align-self: right;
+}
+
+.footer-btns-div {
+    padding-right: 1.5rem;
+    margin-right: -1px;
+    text-align: right;
+}
+
+.footer-btns-style {
+    margin-top: 1.5rem;
+    border-style: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: -10px;
+}
+
+.copy-text {
+    display:inline-block;
+    justify-content: right;
+    font-size: 13px;
+    margin-top: -20px;
+    padding-right: 1.2rem;
+    color: rgb(83, 83, 83);
+   
+}
